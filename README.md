@@ -1,9 +1,7 @@
-# SAC-WEB
- open index.html file
- # Tech Stack
-  jQuery
-  Bootstrap
-  Firebase
-  
-# Creator : YASH JANORIA
+#Project Title
+This is a web prototype of SAC.
+
+##Geting Started
+For running the Prototype Please open the index.html file in your browser
+
  
