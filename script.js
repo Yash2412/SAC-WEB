@@ -11,29 +11,6 @@ $(document).ready(function(){
         $(this).siblings('#more_text').toggle();
     });
 
-
-    $(".side-nav a").hover(hoverOn, hoverOf);
-
-    function hoverOn() {
-      $(this).css({"text-decoration": "none",
-                  "color": "black",
-                  "background-color": "white",
-                  "font-size": "20px",
-                });
-        $(this).children('img').css('display','block');
-        $(this).parent().next().find('a').addClass("curve-up");
-        $(this).parent().prev().find('a').addClass("curve-down");
-    }
-    function hoverOf() {
-      $(this).css({"text-decoration": "none",
-      "font-size": "18px",
-      "color": "white",
-      "background-color": "#000",});
-        $(this).children('img').css('display','none');
-        $(this).parent().next().find('a').removeClass("curve-up");
-        $(this).parent().prev().find('a').removeClass("curve-down");
-        active();
-    }
     function active(){
       var act=$('#active');
       act.css({"text-decoration": "none",
