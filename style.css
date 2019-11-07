@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
 	margin-left: 20%;
   }
   
-  .top-bar input[type=text] {
+  .top-bar .has-search input[type=text] {
 	padding: 6px;
 	margin-top: 8px;
 	font-size: 17px;
